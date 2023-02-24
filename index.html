@@ -2,7 +2,7 @@
     <html lang="en">
         <head>
         <meta charset="UTF-8">
-            <title>Bootstrap Header and Footer Example</title>
+            <title>My Presenatation Page</title>
     <!-- Add Bootstrap CSS -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
     <!-- Add custom CSS -->
@@ -10,16 +10,29 @@
         </head>
     <body>
 <!-- Add header -->
-    <div class="header">
-        <h1>This is a Test webpage</h1>
-    </div>
-
+    <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Presentation WebPage</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-me">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="git-commands.html">Git Commands</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </header>
 <!-- Add content -->
-    <div class="container mt-3">
-        <article>About git</article>
-        <h2>The most important git commands</h2>
-        <ul>Git</ul>
-    </div>
+   <article>
+       <h1>These page is for presentation purposes</h1>
+       <aside>Git Commands</aside>
+   </article>
 
 <!-- Add footer -->
 
