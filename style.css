@@ -1,0 +1,25 @@
+/* Set a background color for the header */
+.header {
+    background-color: #82b74b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Set a background color for the footer */
+.footer {
+    background-color: #82b74b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Add padding to the top of the content section */
+.container {
+    padding-top: 20px;
+}
+
+/* Add margin to the bottom of the content section */
+.container {
+    margin-bottom: 20px;
+}
