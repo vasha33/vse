@@ -6,11 +6,39 @@
     text-align: center;
 }
 
-/* Set a background color for the footer */
-.footer {
+body{
     background-color: #82b74b;
     color: #fff;
-    padding: 20px;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+article h1 {
+    text-align:left;
+}
+
+article iframe {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Set a background color for the footer */
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+}
+
+.footer a {
+    padding: 0.2px;
+}
+
+.footer p {
     text-align: right;
 }
 
