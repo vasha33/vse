@@ -47,7 +47,33 @@ article iframe {
     padding-top: 20px;
 }
 
+.container mt-5{
+    padding-bottom: 30px;
+}
+
+.col-md-5{
+    padding-bottom: 20px;
+}
+
 /* Add margin to the bottom of the content section */
-.container {
-    margin-bottom: 20px;
+
+.carousel-container {
+  height: 150px;
+  padding-bottom: 350px;/* set the height to 300px */
+
+}
+
+.picture-container {
+  float: right;
+  margin: 0 0 20px 20px; /* Adjust the margin values to position the image */
+}
+
+.list-group {
+    border: 5px solid orange;
+}
+
+
+.list-group a:hover {
+  background-color: #82b74b;
+  color: white;
 }
